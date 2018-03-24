@@ -1,7 +1,7 @@
-.PHONEY: test
+.PHONY: test
 test:
 	go test -cover -v
 
-.PHONEY: build
+.PHONY: build
 build:
 	go build
